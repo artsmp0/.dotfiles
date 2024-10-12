@@ -1,0 +1,17 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "cmd+i",
+    "command": "-inlineChat.start",
+    "when": "editorFocus && inlineChatHasProvider && !editorReadonly"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-composer.startComposerPrompt",
+    "when": "composerIsEnabled"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "-aichat.insertselectionintochat"
+  }
+]
